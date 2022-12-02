@@ -1,9 +1,9 @@
-import { m as magic } from './_magic-0aa129fc-661400d2.js';
+import { m as magic } from './_magic-40b9b235-f8c45b24.js';
 import { c as createSessionCookie } from './_utils-7b4af845-9c81a495.js';
+import '@magic-sdk/admin';
 import 'cookie';
 import 'dotenv';
 import '@hapi/iron';
-import 'crypto';
 
 async function POST(evt) {
   try {
@@ -35,4 +35,4 @@ async function POST(evt) {
 }
 
 export { POST };
-//# sourceMappingURL=login.ts-1772b36e.js.map
+//# sourceMappingURL=login.ts-0afe987b.js.map

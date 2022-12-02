@@ -1,9 +1,9 @@
-import { m as magic } from './_magic-0aa129fc-661400d2.js';
+import { m as magic } from './_magic-40b9b235-f8c45b24.js';
 import { r as removeSessionCookie } from './_utils-7b4af845-9c81a495.js';
+import '@magic-sdk/admin';
 import 'cookie';
 import 'dotenv';
 import '@hapi/iron';
-import 'crypto';
 
 async function GET(event) {
   try {
@@ -44,4 +44,4 @@ async function GET(event) {
 }
 
 export { GET };
-//# sourceMappingURL=logout.ts-b55ce5f4.js.map
+//# sourceMappingURL=logout.ts-124698b3.js.map

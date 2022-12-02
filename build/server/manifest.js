@@ -3,7 +3,7 @@ const manifest = {
 	assets: new Set(["favicon.png","robots.txt","svelte-welcome.png","svelte-welcome.webp"]),
 	mimeTypes: {".png":"image/png",".txt":"text/plain",".webp":"image/webp"},
 	_: {
-		entry: {"file":"_app/immutable/start-d7a2da63.js","imports":["_app/immutable/start-d7a2da63.js","_app/immutable/chunks/index-5b9f5232.js","_app/immutable/chunks/index-d30e7481.js","_app/immutable/chunks/singletons-eca981c1.js"],"stylesheets":[]},
+		entry: {"file":"_app/immutable/start-f808934b.js","imports":["_app/immutable/start-f808934b.js","_app/immutable/chunks/index-5b9f5232.js","_app/immutable/chunks/index-d30e7481.js","_app/immutable/chunks/singletons-eca981c1.js"],"stylesheets":[]},
 		nodes: [
 			() => import('./chunks/0-9e49015d.js'),
 			() => import('./chunks/1-1c85f52f.js'),
@@ -60,7 +60,7 @@ const manifest = {
 				pattern: /^\/api\/auth\/logout\/?$/,
 				names: [],
 				types: [],
-				load: () => import('./chunks/logout.ts-b55ce5f4.js')
+				load: () => import('./chunks/logout.ts-124698b3.js')
 			},
 			{
 				type: 'endpoint',
@@ -68,7 +68,7 @@ const manifest = {
 				pattern: /^\/api\/auth\/login\/?$/,
 				names: [],
 				types: [],
-				load: () => import('./chunks/login.ts-1772b36e.js')
+				load: () => import('./chunks/login.ts-0afe987b.js')
 			}
 		],
 		matchers: async () => {
