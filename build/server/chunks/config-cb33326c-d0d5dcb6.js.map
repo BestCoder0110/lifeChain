@@ -1,0 +1,1 @@
+{"version":3,"file":"config-cb33326c-d0d5dcb6.js","sources":["../../../.svelte-kit/adapter-node/_app/immutable/chunks/config-cb33326c.js"],"sourcesContent":["import axios from \"axios\";\naxios.create({\n  baseURL: \"http://128.199.5.199:5000/\"\n});\n"],"names":[],"mappings":";;AACA,KAAK,CAAC,MAAM,CAAC;AACb,EAAE,OAAO,EAAE,4BAA4B;AACvC,CAAC,CAAC"}
