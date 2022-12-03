@@ -9,6 +9,7 @@ async function POST(evt) {
   try {
     const didToken = magic.utils.parseAuthorizationHeader(evt.request.headers.get("authorization"));
     await magic.token.validate(didToken);
+    console.log("@@@", didToken);
     const metadata = await magic.users.getMetadataByToken(didToken);
     const cookie = await createSessionCookie(metadata);
     return {
@@ -35,4 +36,4 @@ async function POST(evt) {
 }
 
 export { POST };
-//# sourceMappingURL=login.ts-0afe987b.js.map
+//# sourceMappingURL=login.ts-0394434d.js.map

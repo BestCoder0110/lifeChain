@@ -6,6 +6,7 @@ export async function POST(evt: RequestEvent): Promise<EndpointOutput> {
 	try {
 		const didToken = magic.utils.parseAuthorizationHeader(evt.request.headers.get('authorization'));
 		await magic.token.validate(didToken);
+		console.log('@@@', didToken);
 		const metadata = await magic.users.getMetadataByToken(didToken);
 		const cookie = await createSessionCookie(metadata);
 		return {
